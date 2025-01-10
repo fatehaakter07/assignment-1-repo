@@ -1,0 +1,88 @@
+header{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 10%;
+    background: rgb(245, 245, 245);
+     /* width: 1600px;
+    height: 100px;
+    padding: 24px 160px ;
+    background: rgb(245, 245, 245);  */
+}
+header nav{
+
+
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+ 
+}
+nav button{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 30px 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    margin: 0 48px;
+      
+}
+
+
+.banner{
+    margin-top: 20px;
+    width: 1280px;
+    height: 560px;
+    margin: 20px 160px 0px 160px;
+    padding: 80px 100px 80px 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    
+}
+.banner .banner-info{
+
+width: 622px;
+height: 326px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 0px 64px;
+
+}
+.banner .banner-subtitle{
+    
+height: 29px;
+margin: 16px 0px;
+    
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner .banner-title{
+
+
+
+margin: 16px 0px;
+}
+.banner button{
+    width: 270px;
+    height: 56px; 
+    padding: 17px 34px 17px 34px;
+     border-radius: 8px;
+background: rgb(0, 106, 80);
+}
