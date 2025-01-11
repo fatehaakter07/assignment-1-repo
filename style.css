@@ -8,6 +8,7 @@ header{
     padding: 24px 160px ;
     background: rgb(245, 245, 245);  */
 }
+/* nav styles */
 header nav{
 
 
@@ -32,7 +33,7 @@ nav button{
     margin: 0 48px;
       
 }
-
+/* banner styles */
 
 .banner{
     margin-top: 20px;
@@ -85,4 +86,179 @@ margin: 16px 0px;
     padding: 17px 34px 17px 34px;
      border-radius: 8px;
 background: rgb(0, 106, 80);
+}
+/* vision styles */
+.vision{
+    width: 1280px;
+    height:765px ;
+margin: 80px 160px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.vision .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.vision .description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.vision .card{
+
+width: 100%;
+height: 325px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+margin: 32px 0px;
+}
+.vision-card-1{
+    position: static;
+width: 410.67px;
+height: 325px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px;
+margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+gap: 80;
+
+}
+.vision-card-2{
+
+    position: static;
+width: 410.67px;
+height: 325px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px;
+margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+gap: 80;
+}
+.vision-card-3{
+    
+position: static;
+width: 410.67px;
+height: 325px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px;
+margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+gap: 80;
+
+}
+.vision .button-1{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+position: static;
+width: 122px;
+height: 41px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+border: none;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+}
+
+.vision .button-2{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+position: static;
+width: 122px;
+height: 41px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+border: none;
+margin: 24px 0px;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+}
+
+.vision .button-3{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+position: static;
+width: 122px;
+height: 41px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+border: none;
+border-radius: 8px;
+background: rgb(255, 194, 57);
+}
+/* quote styles */
+
+.vision .quote{ 
+    padding: 48px 24px 48px 24px;
+    position: relative;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+
+}
+.quote img{
+position: absolute;
+
+top: 4.57px;
 }
