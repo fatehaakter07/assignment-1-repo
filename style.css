@@ -6,13 +6,7 @@ html, body {
 }
 
     
-    
-/* button:hover {
-    color: aquamarine;
-    background-color: plum; 
-    opacity: 0.8; 
-    transition: background-color 0.8s ease-in-out, opacity 0.8s ease-in-out; 
-} */
+  
 
 
 
@@ -22,7 +16,7 @@ html, body {
 display: flex;
 flex-direction: column;
 justify-content: center;
-flex-wrap: wrap;
+flex-wrap: wrap; 
 align-items: center;
 
 }
@@ -647,11 +641,10 @@ margin: 32px 0px;
 
 .donate{
     margin: 0 auto;
+    margin-top: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 25px;
-    
     
 }
 .today{
@@ -728,12 +721,12 @@ background: rgb(0, 106, 80);
 }
 
 .newsletter{
+    margin: 0 auto;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     border-radius: 24px;
 background: rgb(198, 228, 214);
 }
@@ -776,6 +769,7 @@ background: rgb(255, 255, 255);
     text-align: left;
 }
 #subscribe {
+    color: white;
     border: none;
     padding: 20px ;
 text-align: left;
@@ -788,20 +782,21 @@ background: rgb(0, 106, 80);
 }
 /* footer-styles */
 footer{
-    /* Frame 2087325621 */
-position: static;
-width: 1600px;
+width: 100%;
 display: flex;
 flex-direction: column;
-justify-content: flex-start;
+justify-content: center;
 align-items: center;
-gap: 32;
-padding: 100px auto;
-margin: 120px auto 100px;
-    background: rgb(255, 255, 255);
+background: rgb(255, 255, 255);
+margin-top: 30px;
+margin-bottom: 30px;
 }
 .img-footer{
 display: flex;
 gap: 20px;
 padding-bottom: 20px;
+}
+.alignment{
+    max-width: 1280px;
+    margin: 0 auto;
 }
