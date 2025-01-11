@@ -1,16 +1,30 @@
 
-header{
+body{
+    max-width:1280px;
+    margin: 0 auto;
+}
 
-padding: 20px 10%;
+
+#full{
+max-width: 1280px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+header{
+    width: 100%;
+padding: 20px 10px;
     background: rgb(245, 245, 245);
-     width: 1600px;
     height: 100px;
     padding: 24px 160px ;
 }
     
 header nav{
 
-   max-width: 1280px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -32,19 +46,12 @@ nav button{
     margin: 0 48px;
       
 }
-/* banner styles */
-main{
-     max-width: 1280px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 
-}
+/* banner styles */
 
 
 .banner{
     margin-top: 20 160px;
-    width: 100%;
     height: 560px;
     margin: 20px 160px 0px 160px;
     padding: 80px 100px 80px 100px;
@@ -100,7 +107,7 @@ margin: 0px 64px;
 }
 /* vision styles */
 .vision{
-width: 100%;
+
 height:765px ;
 margin: 80px 160px;
 display: flex;
@@ -134,7 +141,6 @@ height: 325px;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
-align-items: center;
 gap: 24;
 margin: 32px 0px;
 }
@@ -261,7 +267,7 @@ background: rgb(255, 194, 57);
 /* quote styles */
 
 .vision .quote{ 
-    width: 100%;
+    
     padding: 48px 24px 48px 24px;
     position: relative;
 border: 1px solid rgba(14, 14, 14, 0.15);
@@ -276,25 +282,28 @@ top: 4.57px;
 }
 
 /* recent-styles */
-.recent-news{
-width: 1600px;
-height: 4541px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-gap: 80;
-margin: 80px 0px;
+.recent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
-.recent-news .title{
+
+/* .recent-news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.recent .title{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: left;
 }
-.recent-news .description{
+.recent .description{
 color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
@@ -304,11 +313,9 @@ text-align: left;
 }
 /* column-1 */
 .news-column-1{
-    border-radius: 24px;
-    background: rgb(255, 255, 255);
-width: 1280px;
+border-radius: 24px;
+background: rgb(255, 255, 255);
 height: 402px;
-
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -319,6 +326,7 @@ align-self: stretch;
 margin: 24px 0px;
     
 }
+
 .news-column-1 .image{
 
 width: 408px;
@@ -510,7 +518,6 @@ margin: 32px 0px;
 .news-column-2{
     border-radius: 24px;
     background: rgb(255, 255, 255);
-width: 1280px;
 height: 402px;
 
 display: flex;
