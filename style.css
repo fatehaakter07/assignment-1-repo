@@ -286,19 +286,21 @@ top: 4.57px;
 
 /* recent-styles */
 .recent{
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    
     
 }
 
 .news-box{
+    
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    margin: 0 auto;
 }
 .recent .title{
     color: rgb(14, 14, 14);
@@ -307,6 +309,7 @@ top: 4.57px;
     font-weight: 700;
     line-height: 48px;
     text-align: left;
+
 }
 .recent .description{
 color: rgba(14, 14, 14, 0.7);
