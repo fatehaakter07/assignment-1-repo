@@ -7,16 +7,12 @@ html, body {
 
     
     
-    
-button:hover:{
-    
+/* button:hover {
     color: aquamarine;
-        background-color: plum; 
-        opacity: 0.8; 
-        transition: background-color 0.8s ease-in-out, opacity 0.8s ease-in-out; 
-    
-    
-    }
+    background-color: plum; 
+    opacity: 0.8; 
+    transition: background-color 0.8s ease-in-out, opacity 0.8s ease-in-out; 
+} */
 
 
 
@@ -665,6 +661,7 @@ flex-direction: column;
 justify-content: center;
 align-items:center ;
 }
+
 .donate .amount{
     display: flex;
     flex-direction: row;
