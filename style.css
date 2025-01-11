@@ -1,10 +1,14 @@
-
-body{
-    
-    
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
     background: rgb(245, 245, 245);
-
 }
+
+    
+    
+    
+
 
 
 #container{
@@ -42,7 +46,7 @@ align-items: center;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
-    padding: 15px 30px 15px 30px;
+    padding:5px 15px  ;
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
@@ -57,8 +61,8 @@ align-items: center;
 .banner{
     margin-top: 20px;
     height: 560px;
-    margin: 20px 160px 0px 160px;
-    padding: 80px 100px 80px 100px;
+    margin: 20px  0px ;
+    padding: 80px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -115,8 +119,6 @@ margin: 0px 64px;
 /* vision styles */
 .vision{
 
-height:765px ;
-margin: 80px 160px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -146,18 +148,19 @@ height: 325px;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
-gap: 24;
-margin: 20px auto;
+gap: 24px;
+
+
 }
 .vision-card-1{
-width: 410.67px;
+width: 100%;
 height: 325px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 padding: 24px;
-margin: 0px 24px;
+margin:  24px 0;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
@@ -166,38 +169,34 @@ gap: 80;
 }
 .vision-card-2{
 
-    position: static;
-width: 410.67px;
-height: 325px;
-
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-padding: 24px;
-margin: 0px 24px;
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgb(198, 228, 214);
-gap: 80;
+    width: 100%;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    margin:  24px 0;
+        box-sizing: border-box;
+        border-radius: 16px;
+        background:rgb(198, 228, 214) ;
+    gap: 80;
 }
 .vision-card-3{
     
-position: static;
-width: 410.67px;
-height: 325px;
-
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-padding: 24px;
-margin: 0px 24px;
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgb(247, 235, 207);
-gap: 80;
-
+    width: 100%;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    margin:  24px 0;
+        box-sizing: border-box;
+        border-radius: 16px;
+        background: rgb(247, 235, 207);
+    gap: 80;
+    
 }
 .vision .button-1{
     color: rgb(255, 255, 255);
@@ -269,9 +268,9 @@ background: rgb(255, 194, 57);
 }
 /* quote styles */
 
-.vision .quote{ 
-    
-    padding: 48px 24px 48px 24px;
+.quote{ 
+    padding: 25px;
+    margin-top: 50px;
     position: relative;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
@@ -279,6 +278,7 @@ background: rgb(255, 255, 255);
 
 }
 .quote img{
+    
 position: absolute;
 
 top: 4.57px;
@@ -286,7 +286,8 @@ top: 4.57px;
 
 /* recent-styles */
 .recent{
-    
+    width: 100%;
+    height: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -295,7 +296,11 @@ top: 4.57px;
     
 }
 
-
+.news-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .recent .title{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -315,16 +320,16 @@ text-align: left;
 /* column-1 */
 .news-column-1{
 border-radius: 24px;
-background: rgb(255, 255, 255);
-height: 402px;
+background: white;
+width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 gap: 32;
-padding: 48px;
-align-self: stretch;
-margin: 24px 0px;
+padding: 30px 0;
+
+margin: 0 24px;
     
 }
 
@@ -338,16 +343,16 @@ background: url(./assets/satelite.png);
 
 }
 .news-column-1 .info{
-    
-width: 744px;
+    padding: 30px;
+width: 100%;
 height: 290px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 32;
-padding: 0px;
-margin: 0px 32px;
+
+margin:  32px 0;
 }
 .news-column-1 h2{
     color: rgba(14, 14, 14, 0.8);
@@ -359,18 +364,19 @@ letter-spacing: 0%;
 text-align: left;
 }
 .news-column-1 .logo{
+    height: 50px;
+    width: 100%;
 
 }
 .date-time{
     
-width: 744px;
-height: 24px;
+
 display: flex;
 flex-direction: row;
-justify-content: flex-start;
+flex-wrap: nowrap;
 align-items: flex-start;
-gap:12;
-margin: 12px 0px;
+gap: 14px;
+
 }
 #day {
     color: rgba(14, 14, 14, 0.7);
@@ -379,10 +385,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 text-align: left;
-width: 122px;
-height: 24px;
-gap: 12;
-margin: 0px 12px;
+
 }
 
 
@@ -393,12 +396,14 @@ margin: 0px 12px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-width: 105px;
+width: 100%;
 height: 24px;
 gap: 12;
-margin: 0px 12px;
+margin: 12px 0;
 }
 .news-column-1 button{
+    color:white;
+
     border-radius: 8px;
 background: rgb(0, 106, 80);
 width: 139px;
@@ -408,48 +413,160 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 48;
-padding: 13px 26px 13px 26px;
+padding: 13px 0;
+margin: 32px 0px;
+}
+/* column-2 */
+
+.news-column-2{
+    border-radius: 24px;
+    background: white;
+    width: 100%;
+    height: 402px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 20px ;
+    
+    margin: 0 24px;
+        
+    }
+    
+    .news-column-2 .image{
+    
+    width: 100%;
+    height: 306px;
+    margin: 0px 32px;
+    border-radius: 24px;
+    background: url(./assets/satelite.png);
+    background-repeat: n;
+    }
+    .news-column-2 .info{
+        
+    width: 100%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    
+    margin:  32px 0;
+    }
+    .news-column-2 h2{
+        color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .news-column-2 .logo{
+        height: 50px;
+        width: 100%;
+    
+    }
+    .date-time{
+        
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 14px;
+    
+    }
+    #day {
+        color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+    }
+    
+    
+    #hour{
+        color: rgba(14, 14, 14, 0.7);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    width: 100%;
+    height: 24px;
+    gap: 12;
+    margin: 12px 0;
+    }
+    .news-column-2 button{
+        color:white;
+        border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 139px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 13px 0;
+    margin: 32px 0px;
+    }
+/* column-3 */
+.news-column-3 button{
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 139px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 13px 0;
 margin: 32px 0px;
 }
 
-/* column3 */
 .news-column-3{
-    border-radius: 24px;
-    background: rgb(255, 255, 255);
-width: 1280px;
+border-radius: 24px;
+background: rgb(255, 255, 255);
+width: 100%;
 height: 402px;
-
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 gap: 32;
-padding: 48px;
-align-self: stretch;
-margin: 24px 0px;
+padding: 48px 0;
+
+margin: 0 24px;
     
 }
+
 .news-column-3 .image{
 
-    width: 408px;
-    height: 306px;
-    margin: 0px 32px;
-    border-radius: 24px;
-    background: url(./assets/satelite.png);
-    
+width: 408px;
+height: 306px;
+margin: 0px 32px;
+border-radius: 24px;
+background: url(./assets/satelite.png);
 
 }
 .news-column-3 .info{
     
-width: 744px;
-height: 290px;
+width: 100%;
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 32;
-padding: 0px;
-margin: 0px 32px;
+
+margin:  32px 0;
 }
 .news-column-3 h2{
     color: rgba(14, 14, 14, 0.8);
@@ -461,13 +578,11 @@ letter-spacing: 0%;
 text-align: left;
 }
 .news-column-3 .logo{
-width: 134px;
-height: 40px;
-margin: 12px 0px;
+
 }
 .date-time{
     
-width: 744px;
+width: 100%;
 height: 24px;
 display: flex;
 flex-direction: row;
@@ -486,7 +601,7 @@ text-align: left;
 width: 122px;
 height: 24px;
 gap: 12;
-margin: 0px 12px;
+margin: 12px 0;
 }
 
 
@@ -497,12 +612,13 @@ margin: 0px 12px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-width: 105px;
+width: 100%;
 height: 24px;
 gap: 12;
-margin: 0px 12px;
+margin: 12px 0;
 }
 .news-column-3 button{
+    color:white;
     border-radius: 8px;
 background: rgb(0, 106, 80);
 width: 139px;
@@ -512,107 +628,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 48;
-padding: 13px 26px 13px 26px;
+padding: 13px 0;
 margin: 32px 0px;
 }
-/* colum-2 */
-.news-column-2{
-    border-radius: 24px;
-    background: rgb(255, 255, 255);
-height: 402px;
 
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-gap: 32;
-padding: 48px;
-align-self: stretch;
-margin: 24px 0px;
-    
-}
-.news-column-2 .image{
-    width: 408px;
-    height: 306px;
-    margin: 0px 32px;
-    border-radius: 24px;
-    background: url(./assets/satelite.png);
-}
-
-.news-column-2 .info{
-    
-width: 744px;
-height: 290px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 32;
-padding: 0px;
-margin: 0px 32px;
-}
-.news-column-2 h2{
-    color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
-}
-.news-column-2 .logo{
-    
-    width: 134px;
-    height: 40px;
-    margin: 12px 0px;
-}
-.date-time{
-    
-width: 744px;
-height: 24px;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-gap:12;
-margin: 12px 0px;
-}
-#day {
-    color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-width: 122px;
-height: 24px;
-gap: 12;
-margin: 0px 12px;
-}
-
-
-#hour{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-width: 105px;
-height: 24px;
-gap: 12;
-margin: 0px 12px;
-}
-.news-column-2 button{
-    border-radius: 8px;
-background: rgb(0, 106, 80);
-width: 139px;
-height: 48px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 48;
-padding: 13px 26px 13px 26px;
-margin: 32px 0px;
-}
